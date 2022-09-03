@@ -1,38 +1,32 @@
-.App {
-  text-align: center;
+
+.marks .land{
+  fill: #d8d8d8;
+}
+.marks .sphere{
+  fill: #ececec;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.marks .interiors{
+  fill: none;
+  stroke: #c3c3c3;
+}
+.marks .graticules, .tick line{
+  fill: none;
+  stroke: #dadada;
+}
+circle {
+  fill: #127B80;
+  opacity: 0.3;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.tick text {
+  fill: #635F5D;
+  font-size: 0.5em;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.mark {
+  fill: #137B80;
 }
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.axis-label {
+  font-size: 0.5em;
+  fill: #635F5D;
 }
